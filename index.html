@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iivo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav-bar" id="top-bar">
+        <img src="img/iivvo.svg"> 
+          <ul id="menu-items">
+            <li> <a href="#"> Jóvenes </a> </li>
+            <li> <a href="#"> Maestros </a> </li>
+            <li> <a href="#"> Institución Educativa </a> </li>
+            <li> <a href="#"> Blog </a> </li>
+            <li> <a href="javascript:void(0);" class="icon" onclick="toggleMenu();"> <i class="menu-icon"><span></span><span></span><span></span></i> </a> </li>
+          </ul> 
+      </nav>
+    </header>
+
+    <div class="section-1" id="section-1">
+      <div class="section-1-items">
+        <span id="title" class="resize"> <h1> Maestros inspiradores de jóvenes transformadores </h1> </span>
+        <span id="subtitle" class="resize"> <h3> Únete a nuestra comunidad y certifícate en educación exponencial </h3></span>
+        <a class="button" id="item" href="#">Unirme</a>
+      </div>
+    </div>
+
+    <div class="section-2-container">
+      <div class="section-2-items">
+        <div class="section-2-item h2">
+          <h2 >Forma parte de la <span class="blue"> comunidad </span> que trabaja para un mejor futuro en la educación</h2>
+        </div>
+        <div class="section-2-item h3">
+          <h3> Conecta personas que están impuslado el cambio en la educación que el mundo necesita </h3>
+        </div>
+
+        <div class="section-2-items-hor section-2-item">
+          <img id="graduados" src="img/graduado.svg">
+
+          <div class="section-2-list">
+            <div class="section-2-list-item">
+              <div class="check"></div>
+              <p>Colabora activamente en proyectos gobales en eduación</p>
+            </div>
+            <div class="section-2-list-item">
+              <div class="check"></div>
+              <p>Aprende sobre competencias, empleos del futuro, tecnologías exponenciales y sus usos en educación </p>
+            </div>
+            <div class="section-2-list-item">
+              <div class="check"></div>
+              <p>Asesora a estudiantes y alumnos en tu campo de especialización</p>
+            </div>
+            <div class="section-2-list-item">
+              <div class="check"></div>
+              <p>Accede a herramientas EdeX y participa en su desarrollo </p>
+            </div>
+            <div class="section-2-list-item">
+              <div class="check"></div> 
+              <p>Participa en EdeX Summits y Challenges recibe convocatorias especiales </p>
+            </div>
+            <div class="section-2-list-item">
+              <div class="check"></div>
+              <p>Froma parte de equipos que impactan positivamente en instituciones educativas</p> 
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+    <div class="section-3-container">
+        <div class="section-3-text"><h2> Nuestras certificaciones <span class="blue">Edex</span> te otorgan una ventaja <span class="green">disruptiva</span></h2></div>
+
+        <div class="section-3-items">
+          <div class="section-3-item">
+            <div class="circulo circ-azul"></div>
+            <p> Conviertete en un especialista en eduación exponencial</p>
+            <p class="small"> Ayuda a tus estudiantes a lidiar con la disrupción acelerada en la educación y en el mundo laboral</p>
+          </div>
+
+          <div class="section-3-item">
+            <div class="circulo circ-verde"></div>
+            <p> Ofrece servicios de transformación de vanguardia</p>
+            <p class="small">Ayuda a tus estudiantes e instituciones a estar al día con temas de educación relacionado a jóvenes, teconológicos y del futuro del empleo.</p>
+          </div>
+
+          <div class="section-3-item blue">
+            <div class="circulo circ-azul"></div>
+            <p>Adquiere conocimientos, competencias y ecperiencia únicos</p>
+            <p class="small">Accede a metodologías de transformación exponencial y a herramientas de soporte que te permitirán aumentar tu valor de mercado</p>
+          </div>
+
+          <div class="section-3-item blue">
+            <div class="circulo circ-verde"></div>
+            <p>Accede al exclusivo a oportunidades dentro del portal</p>
+            <p class="small">Descrubra oportunidades únicas de transformación y ayude a otros profesionales a llevar adelante sus proyectos o encuentre especialistas que le ayuden con sus propios.</p>
+          </div>
+        </div>
+    </div>
+
+    <footer>
+      <div class="footer-text">
+        <p> Encuentra universidades </p>
+      </div>
+
+      <div class="img-uni">
+        <div class ="img">
+          <img src="img/UNAM.png">
+        </div>
+        <div class ="img">
+          <img src="img/UVM.png">
+        </div>
+        <div class ="img">
+          <img src="img/TECMILENIO.png">
+        </div>
+        <div class ="img" id="img2">
+          <img src="img/UNAM.png">
+        </div>
+        <div class ="img" id="img2">
+          <img src="img/UVM.png">
+        </div>
+        <div class ="img" id="img2">
+          <img src="img/TECMILENIO.png">
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      function toggleMenu() {
+        document.querySelector("#menu-items").classList.toggle('active');
+        document.querySelector("#top-bar").classList.toggle('resize');
+      }
+
+      $(document).ready(function(){
+        fetch_titulo();
+        fetch_subtitulo();
+
+        function fetch_titulo(){
+          $.ajax({
+                url:"admin/modificar.php",
+                type:"POST",
+                data:{type:'titulo'},
+                success:function(data){
+                    $('#title').html(data);
+                }
+            })
+        };
+
+        function fetch_subtitulo(){
+          $.ajax({
+                url:"admin/modificar.php",
+                type:"POST",
+                data:{type:'subtitulo'},
+                success:function(data){
+                    $('#subtitle').html(data);
+                }
+            })
+        };
+      });
+    </script>
+  </body>
+</html>

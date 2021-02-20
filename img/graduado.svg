@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430" height="430" viewBox="0 0 430 430">
+  <defs>
+    <clipPath id="clip-img-banner1">
+      <rect width="430" height="430"/>
+    </clipPath>
+  </defs>
+  <g id="img-banner1" clip-path="url(#clip-img-banner1)">
+    <g id="Componente_110_5" data-name="Componente 110 – 5" transform="translate(31.999 49)">
+      <g id="Grupo_1048" data-name="Grupo 1048" transform="translate(16.904 12.71)">
+        <path id="Trazado_963" data-name="Trazado 963" d="M193.083,416.193,364.406,342.95l171.323,73.243-36.812,15.226L364.406,487.05Z" transform="translate(-186.115 -342.95)" fill="#91c769"/>
+        <path id="Trazado_964" data-name="Trazado 964" d="M469.278,450.479l.044-86.636-134.751,56L202.387,364.913v106S356.455,530.148,469.278,450.479Z" transform="translate(-156.394 -276.209)" fill="#91c769"/>
+        <ellipse id="Elipse_537" data-name="Elipse 537" cx="65.387" cy="64.523" rx="65.387" ry="64.523" transform="translate(0 160.505)" fill="#91c769"/>
+        <path id="Trazado_965" data-name="Trazado 965" d="M273.557,389.309l1.38,44.677s6.132,2.886,7.487,15.659,0,65.646,0,65.646H247.786V465.125s-1.657-27.167,9.844-32.111V396.945Z" transform="translate(-4.425 -196.514)" fill="#91c769"/>
+      </g>
+      <g id="Grupo_1047" data-name="Grupo 1047">
+        <path id="Trazado_963-2" data-name="Trazado 963-2" d="M188.083,414.193,357.891,340.95,527.7,414.193l-36.492,15.226L357.891,485.05Z" transform="translate(-181.115 -340.95)" fill="none" stroke="#0f0e0f" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Trazado_964-2" data-name="Trazado 964-2" d="M281.154,487.3c52.972,5.83,122.163,2.034,180.294-39.185l.046-86.074L328.17,417.672,197.387,363.1v70.979" transform="translate(-151.394 -273.576)" fill="none" stroke="#0f0e0f" stroke-miterlimit="10" stroke-width="2"/>
+        <ellipse id="Elipse_537-2" data-name="Elipse 537-2" cx="65.387" cy="64.523" rx="65.387" ry="64.523" transform="translate(0 160.505)" fill="none" stroke="#0f0e0f" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Trazado_965-2" data-name="Trazado 965-2" d="M271.176,388.309l1.38,42.6s6.132,2.752,7.487,14.932,0,62.6,0,62.6H245.405V460.6s-1.657-25.9,9.844-30.62V395.591Z" transform="translate(1.733 -189.664)" fill="none" stroke="#0f0e0f" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
